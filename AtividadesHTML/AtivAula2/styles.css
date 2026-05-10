@@ -1,0 +1,15 @@
+
+header{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(220, 226, 219);    
+    hr{
+        border: 1px solid rgb(140, 141, 138);
+    }
+}
+
+footer{
+    text-align: center;
+}
