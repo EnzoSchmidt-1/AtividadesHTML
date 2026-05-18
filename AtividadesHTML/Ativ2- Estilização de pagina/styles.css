@@ -1,0 +1,74 @@
+/*Eu arrumei a posição dos header e footer*/
+/*alem disso eles estão estilizados agora*/
+header{
+    padding-top: 20px;
+}
+
+header, footer{
+    background-color: rgb(63, 88, 92);
+    text-align: center;
+    
+}
+
+body{
+    background-color: #f4f4f9;
+    color: #333333;
+    font-family: 'Roboto';
+    margin: 0;
+    hr{
+        border: 3px solid rgb(140, 141, 138);
+    }
+}
+
+main{
+    max-width: 800px;
+    margin: auto; 
+    padding: 30px;
+}
+
+/*Eu gostei do tamanho do texto como ele estava então alterei somente a cor do h1, h2 e h3*/
+h1{
+    color: #2c3e50;
+}
+
+h2{
+    color: #34495e;
+}
+
+h3{
+    color: #48627c;
+}
+
+footer{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+/*Uso de Classes*/
+.capa {
+    max-width: 100%;
+    padding: 10px;
+}
+
+/*As tabs agpra estão todas padronizadas é centralizadas */
+.tab{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    border: 5px solid #34495e;
+    border-radius: 15px; 
+    padding: 10px; 
+    background-color: #34495e; 
+}
+
+.Finalizações{
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+
+
+/*Não entendi como que faz seleção por ID*/
+#lista_Diferente{
+    padding: 3px;
+    color: rgb(20, 68, 110);
+}
