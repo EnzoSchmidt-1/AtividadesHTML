@@ -1,0 +1,48 @@
+table{
+    border-collapse: collapse;
+    border-spacing:5px;
+    width: 100%;
+    font-family: 'in times new roman', 'serif';
+}
+
+.header{
+    color: white;
+}
+
+header{
+    background-color: rgb(250, 196, 109);
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+tr th{
+    border: 1px solid black;
+    background-color: orange;
+    font-size: 23px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    
+}
+tr td{
+    border: 1px solid lightslategray;
+    background-color: lightgray;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+tr{
+    text-align: center;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.canto{
+    background-color: rgb(219, 143, 4);
+}
