@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #b9f3e4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+
+        .container{
+            width: 100%;
+            max-width: 440px;
+            background-color: #fffdf8;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .topo{
+            background-color: cadetblue;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        h1{
+            text-align: center;
+            margin: 0;
+            font-size: 22px;
+        }
+
+        label{
+            font-weight: bold;
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            color: #333333;
+        }
+
+        input, textarea, select{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        input:focus, select:focus, textarea:focus{
+            border-color: cadetblue;
+            box-shadow: 0 0 5px rgba(95, 158, 160, 0.6);
+        }
+
+        input[type="submit"]{
+            width: 100%;
+            background-color: cadetblue;
+            color: white;
+            padding: 12px;
+            margin-top: 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #437172;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="topo">
+            <h1>Formulário</h1>
+        </div>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="Curso" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" >
+                <option value="">Selecione...</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+
+            <label for="interesses">Interesses:</label>
+            <input type="text" id="interesses" name="interesses">
+
+            <label for="comentario">Comentários:</label>
+            <textarea id="comentario" rows="3"></textarea>
+
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" accept="image/*">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
